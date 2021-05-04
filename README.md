@@ -16,21 +16,22 @@ This study provides a principal component technique to sea ice classification in
 # Methods
 ##### Google Colab Python environment
 Alongside the use of GEE for data retrieval, preparation and classification, we opt to use Google Colab, a cloud computation python environment. Indeed, Google Colab (GC) is an exceptional tool for the use of superior python functions in the cloud, minimizing the pressure of data storage while simultaneously enhancing processing power through parallelization. GC allows the user to mount their Google Drive storage point to the environment, allowing easy data imports and exports of results. 
+
 ##### Proposed Python Modules
-from datetime import datetime
-import pandas as pd
-import geopandas as gpd
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib import cm
-import matplotlib.cbook
-from mpl_toolkits.basemap import Basemapimport random
-from mpl_toolkits.axes_grid1 import make_axes_locatable
-from scipy import stats
-import matplotlib.image as mpimg
-from sklearn.metrics import r2_score
-from sklearn.decomposition import PCA
-import warnings
+###### from datetime import datetime
+###### import pandas as pd
+###### import geopandas as gpd
+###### import numpy as np
+###### import matplotlib.pyplot as plt
+###### from matplotlib import cm
+###### import matplotlib.cbook
+###### from mpl_toolkits.basemap import Basemapimport random
+###### from mpl_toolkits.axes_grid1 import make_axes_locatable
+###### from scipy import stats
+###### import matplotlib.image as mpimg
+###### from sklearn.metrics import r2_score
+###### from sklearn.decomposition import PCA
+###### import warnings
 
 ##### Principal Component Analysis
 The PCA method is such that the first component will always contain the most variation found in the original data. This is referred to as the “integrated brightness” and provides a good index of the general image characteristics. In the case of sea ice data, the image scenes may be water or ice dominant. The second component then highlights the major differences between the image channels. In fact, it is suggested that studies using multitemporal monthly data over an annual cycle display a second component that tracks the seasonal evolution well (Piwowar, et al., 1996). Principal components three and onward usually represent increasingly local variation and anomalies. Therefore, we propose that it is within these variations that the open water and thin ice leads may be characterized. 
