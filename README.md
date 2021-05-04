@@ -1,6 +1,7 @@
 # PCA Leads
 ### Principal component analysis of Arctic Sea ice using Sentinel-1 RADAR data
 #### Jullian C.B. Williams
+#### jullian.williams@my.utsa.edu
 ##### Department of Civil and Environmental Engineering, The University of Texas at San Antonio, 1 UTSA Circle, San Antonio, Texas 78249
 
 # Summary
