@@ -17,7 +17,7 @@ This study provides a principal component technique to sea ice classification in
 ##### Google Colab Python environment
 Alongside the use of GEE for data retrieval, preparation and classification, we opt to use Google Colab, a cloud computation python environment. Indeed, Google Colab (GC) is an exceptional tool for the use of superior python functions in the cloud, minimizing the pressure of data storage while simultaneously enhancing processing power through parallelization. GC allows the user to mount their Google Drive storage point to the environment, allowing easy data imports and exports of results. 
 
-##### Proposed Python Modules
+##### Python Modules
 ###### from datetime import datetime
 ###### import pandas as pd
 ###### import geopandas as gpd
