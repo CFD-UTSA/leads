@@ -2,7 +2,7 @@
 ### Principal component analysis of Arctic Sea ice using Sentinel-1 RADAR data
 #### Jullian C.B. Williams
 ##### Department of Civil and Environmental Engineering, The University of Texas at San Antonio, 1 UTSA Circle, San Antonio, Texas 78249
-### Proposal
+
 # Summary
 The increasing concern regarding climate change continues to motivate research in the Arctic. Within the delicate cycle of the cryosphere, leads are an important kinematic feature that regulate heat balances in the Arctic. Therefore, it is necessary to quantify the genesis of leads over time to identify when and where changes are occurring. The use of a principal component analysis (PCA) is one such tool that is used to identify the characteristics of seasonal ice variability. The PCA not only identifies “normal” or “dominant” conditions or features, but also extract anomalous spatial features from an archive of long-term sequence of images. 
 # Introduction 
